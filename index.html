@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="index.js">
-    <title>Document</title>
+    <script src="index.js"></script>
+    <title>Lista de compras</title>
 </head>
 <body>
-    
+    <head>
+        <h1>Sua lista de compras</h1>
+    </head>
+    <main>
+        <h2>adicione aqui os items da sua lista:</h2>
+        <input type="text" id="item" placeholder="digite um produto">
+        <button onclick="add()" id="button"></button>
+        <ul id="Produtos"></ul>
+    </main>
+    <footer>
+        <h3>essa é sua lista de compras</h3>
+    </footer>
 </body>
 </html>
