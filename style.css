@@ -15,6 +15,11 @@ main{
     height: 33%;
 }
 
+.Help{
+    display: flex;
+    justify-content: flex-end;
+}
+
 footer{
     background-color: red;
     width: 100%;
