@@ -10,14 +10,16 @@
 <body>
     <main>
 
-        <section class="container">
-            <h2>adicione aqui os items da sua lista:</h2>
+        <section>
+            <h1>Adicione aqui os itens da sua lista:</h1>
             <div class="form">
-                <input type="text" id="item" class="input" placeholder="digite um produto">
-                <button id="adicione" class="add">adicione</button>
+                <input type="text" id="input" placeholder="digite um produto">
+                <button class="add" onclick="addItem()">adicione</button>
             </div>
-            <ul  class="tasks" id="produtos"></ul>
-            <!-- <button class="delete-all">Delete all</button> -->
+            <ul  id="tasks"></ul>
+            <button class="delete" onclick="removeItems()">Delete all</button>
+        </section>
+        <section>
             <p>Desenvolvido por: <a href="https://github.com/renanvilabela">Renan Vila Bela</a></p>
         </section>
 
