@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <title>Lista de compras</title>
 </head>
 <body>
-    <header>
-        <h1>Sua lista de compras</h1>
-    </header>
     <main>
-        <button onclick="help()" id="help">Ajuda</button>
-        <h2>adicione aqui os items da sua lista:</h2>
-        <input type="text" id="item" placeholder="digite um produto">
-        <button onclick="add()" id="botao">adicionar</button>
-        <h3>essa é sua lista de compras</h3>
-        <ul id="Produtos">
-        </ul>
+
+        <section class="container">
+            <h2>adicione aqui os items da sua lista:</h2>
+            <div class="form">
+                <input type="text" id="item" class="input" placeholder="digite um produto">
+                <button id="adicione" class="add">adicione</button>
+            </div>
+            <ul  class="tasks" id="produtos"></ul>
+            <!-- <button class="delete-all">Delete all</button> -->
+            <p>Desenvolvido por: <a href="https://github.com/renanvilabela">Renan Vila Bela</a></p>
+        </section>
+
     </main>
     <footer>
-        
     </footer>
 </body>
 </html>
